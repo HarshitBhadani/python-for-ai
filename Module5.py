@@ -47,3 +47,5 @@ my_dog2 = Dog(name="Max")
 print(my_dog.eat())    # Buddy is eating
 print(my_dog.sleep())  # Buddy is sleeping
 print(my_dog.bark())   # Buddy says woof!
+
+print(my_dog2.sleep())  # Max is sleeping
