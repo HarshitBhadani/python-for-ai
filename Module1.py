@@ -15,12 +15,12 @@ lname = "Kumar"
 print(f"Age: {age}, Score: {score}, Pi: {pi}")
 print(f"Name: {fname} {lname} {len(fname)} {len(lname)}")
 
-flag = age>56 and score<0
+flag = age > 56 and score < 0
 print(f"Flag: {flag}")
 
 print(True or False)
-print (True and False)
-print (not True)
+print(True and False)
+print(not True)
 
 score = "10" + f"Score is {score}"
 print(score)
@@ -35,7 +35,7 @@ print(text.find("programming"))
 print(text.replace("python", "java"))
 
 temp = 25
-if temp>30:
+if temp > 30:
     print("It's hot outside")
 else:
     print("It's not that hot outside")
@@ -43,15 +43,15 @@ else:
 for i in range(5):
     print(f"Iteration {i}")
 
-for i in range(2,15,2):
+for i in range(2, 15, 2):
     print(f"Iteration {i}")
 
-#List
-my_list = ["Alice",25,False,3.14]
+# List
+my_list = ["Alice", 25, False, 3.14]
 print(my_list)
 
-#Dictionary
-my_dict = {"name":"Alice", "age":25, "is_student":False}    
+# Dictionary
+my_dict = {"name": "Alice", "age": 25, "is_student": False}
 print(my_dict)
 print(my_dict["name"])
 my_dict["license"] = True
@@ -62,6 +62,6 @@ print(my_dict.get("age", "Age not found"))
 print(my_dict.keys())
 print(my_dict.values())
 
-#tuple
-point = (10, 20) 
+# tuple
+point = (10, 20)
 print(point)
