@@ -18,8 +18,8 @@ print(f"Name: {fname} {lname} {len(fname)} {len(lname)}")
 flag = age > 56 and score < 0
 print(f"Flag: {flag}")
 
-print(True or False)
-print(True and False)
+print(True)
+print(False)
 print(not True)
 
 score = "10" + f"Score is {score}"

@@ -1,7 +1,6 @@
 # pip install -r requirements.txt
 def greet(name):
     print(f"Hello {name}, Good Morning!")
-    pass
 
 
 greet("Harshit")
@@ -20,7 +19,7 @@ print(f"Square root of 16 is {math.sqrt(16)}")
 
 from datetime import datetime
 
-now = datetime.now()
+now = datetime.now()  # noqa: DTZ005
 print("Current date and time:", now)
 
 import pandas as pd
